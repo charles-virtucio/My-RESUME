@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  section {
+    width: 100%;
+  }
+  
+  .left-section {
+    background-color: #fbfae7;
+    float: left;
+    width: 65%;
+  }
+  
+  .resume-section {
+    padding: 20px;
+  }
+  
+  /*-----section 1 start-----*/
+  .section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section-item {
+    flex: 1;
+    padding: 1em;
+    float: left;
+    text-align: center;
+  }
+  
+  .section-item2 {
+    flex: 5;
+    padding: 1em;
+    float: left;
+  }
+  
+  /*-----section 1 end-----*/
+  
+  /*-----section 2 start-----*/
+  .section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section2-item {
+    width: 70%;
+  }
+  
+  /*-----section 2 end-----*/
+  
+  /*-----section 3 start-----*/
+  .section-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section3-item {
+    width: 80%;
+  }
+  
+  .skills {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 49%;
+    float: left;
+  }
+  
+  .skill-name {
+    flex: 6;
+    width: 50%;
+    float: left;
+    text-align: left;
+  }
+  
+  .skill-name p {
+    padding: 1px;
+    line-height: 0.1;
+  }
+  
+  .skill-rate {
+    flex: 6;
+    width: 50%;
+    float: left;
+    text-align: left;
+  }
+  
+  .skill-rate p {
+    padding: 1px;
+    line-height: 0.1;
+  }
+  
+  .skill-rate i {
+    padding: 3px;
+  }
+  
+  i {
+    -webkit-text-stroke: 1px #000;
+  }
+  
+  .active {
+    color: #fffb00;
+  }
+  
+  .break {
+    width: 100%;
+  }
+  
+  /*-----section 3 end-----*/
+  
+  .display-photo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid #000;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  .cv-download {
+    display: flex;
+ }
+ 
+ .cv-download li {
+     list-style-type: none;
+ }
+ 
+ .cv-download .download-btn {
+     background-color: white;
+     color: black;
+     border-radius: 15px;
+     width: 40px;
+     align-items: center;
+     font-size: 15px;
+     text-decoration: none;
+     padding: 5px;
+ }
+ .cv-download .download-btn:hover {
+     background-color: aqua;
+ }
+    footer {
+    background: black;
+    z-index: 10;
+    width: 100%;
+    position: absolute;
+  }
+  
+  .footer-content {
+    padding: 20px;
+  }
+  
+  .footer-content p {
+    color: #fff;
+    text-align: center;
+  }
+  @media only screen and (max-width: 1100px) {
+    .skills {
+      width: 100%;
+    }
+    .section-1 {
+      display: block;
+      text-align: center;
+    }
+    .section-item {
+      margin: 0 auto;
+      display: block;
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .right-section {
+      display: none;
+    }
+  
+    .skills {
+      width: 100%;
+    }
+  
+    .section-1 {
+      display: block;
+      text-align: center;
+      background-color: #000000c8 !important;
+      color: #fff;
+    }
+  
+    .section-item {
+      margin: 0 auto;
+  
+      display: block;
+      width: 95%;
+    }
+  
+  }
